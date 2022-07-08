@@ -81,7 +81,7 @@ public class tr_test {
         assertEquals("Лист", root.getChildren().get(0).getName());
         assertEquals("Ствол", root.getChildren().get(1).getName());
         String content ="";
-        String path = "file.txt";
+        String path = "file.txt  ";
         Files.write(Paths.get(path), content.getBytes());
     }
 }
